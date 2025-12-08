@@ -2,7 +2,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-const base_path = 'https://abanob2005.github.io/React-Frist-SPA/'; 
+const base_path = ''; 
 
 export default defineConfig({
   plugins: [react()],
