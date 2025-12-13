@@ -12,6 +12,7 @@ import Navbar from './components/Navbar/Navbar'
 import { BrowserRouter, Routes , Route} from 'react-router-dom'
 import Portofolio from './components/Portofolio/Portofolio'
 import Footer from './components/Footer/Footer'
+import NotFound from './components/NotFound/NotFound'
 
 
 
@@ -28,6 +29,7 @@ function App() {
       <Route path= '/About' element={<About/>}/>
       <Route path= '/Portofolio' element={<Portofolio/>}/>
       <Route path= '/Contact' element={<Contact/>}/>
+      <Route path= '/*' element={<NotFound/>}/>
      </Routes>
      <Footer/>
      </BrowserRouter>
